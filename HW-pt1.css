@@ -1,34 +1,80 @@
-
+body {
+    text-align: center;
+    background-color: gray;
+    color: white;
+    margin-left: 100px;
+    margin-right: 100px;
+}
 
 
 header {
     padding: 20px;
-    background-color: green;
+    background-color: white;
+    color: gray;
     margin-bottom: 10px
 }
 
 #nav {
+    color: gray;
     padding: 20px;
-    background-color: green;
+    background-color: white;
 }
 
 #all {
+    clear: left;
     float: left;
-    width: 60%;
-    background-color: green;
-    margin: 10px;
-    margin-top: 20px
+    width: 54%;
+    background-color: white;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-top: 40px;
+    color: gray;
 }
 
 #aside {
     margin-top: 20px;
-    padding: 20px;
-    width: 35%;
+    margin-bottom: 20px;
+    padding-top: 85px;
+    padding-bottom: 81px;
+    width: 45%;
+    clear: right;
     float: right;
-    background-color: red;
+    background-color: white;
+    color: gray;
+}
+
+#article {
+color: white;
+Margin: 10px;
+Background-color: gray;
+padding-bottom: 5px;
+padding-top: 10px;
+width: 97%;
+}
+
+#hs {
+    margin: 1%;
+    background-color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: gray;
+}
+
+#ps {
+    color: gray;
+    margin: 1%;
+    background-color: white;
+    margin-bottom: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 footer{
+    color: gray;
+margin-top: 80px;
+clear: both;
 width: 100%;
-background-color: blue;
+background-color: white;
+padding-top: 20px;
+padding-bottom: 20px;
 }
